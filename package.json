@@ -1,5 +1,5 @@
 {
-  "name": "v3-vue-headless",
+  "name": "v3-vue-headless-components",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
