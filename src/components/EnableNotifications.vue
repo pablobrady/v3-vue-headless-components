@@ -1,5 +1,6 @@
 <template>
   <div class="py-16">
+    <h2 class="text-xl font-bold text-left px-3">EnableNotifications:</h2>
     <Switch
       v-model="enabled"
       :class="enabled ? 'bg-teal-900' : 'bg-teal-700'"
