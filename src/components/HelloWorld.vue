@@ -1,6 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="border">{{ msg }}!</h1>
 
+  <!--
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -32,6 +33,7 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+-->
 </template>
 
 <script lang="ts">

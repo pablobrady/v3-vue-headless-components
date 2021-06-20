@@ -1,16 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <img class="mx-auto" width="100" height="100" alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="HELLO V3 WORLD!" />
+  <EnableNotifications />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import EnableNotifications from './components/EnableNotifications.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    EnableNotifications
   }
 })
 </script>
