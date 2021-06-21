@@ -2,11 +2,11 @@
   <img class="mx-auto" width="100" height="100" alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="HELLO V3 WORLD!" />
 
-  <div class="m-4 p-3">
+  <div class="mt-5 p-5">
     <EnableNotifications />
   </div>
 
-  <div class="m-4 p-3">
+  <div class="p-5">
     <SalespersonListbox />
   </div>
 </template>

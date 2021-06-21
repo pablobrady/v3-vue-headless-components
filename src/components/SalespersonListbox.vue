@@ -15,7 +15,7 @@
         </ListboxButton>
 
         <transition
-          leave-active-class="transition duration-100 ease-in"
+          leave-active-class="transition duration-900 ease-in"
           leave-from-class="opacity-100"
           leave-to-class="opacity-0"
         >
@@ -81,7 +81,7 @@ export default {
 
   setup() {
     const people = [
-      { name: 'Wade Cooper' },
+      { name: 'Wade Coop' },
       { name: 'Arlene Mccoy' },
       { name: 'Devon Webb' },
       { name: 'Tom Cook' },
