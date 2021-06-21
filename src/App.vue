@@ -7,7 +7,7 @@
   </div>
 
   <div class="m-4 p-3">
-    <ToggleNewsletters />
+    <SalespersonListbox />
   </div>
 </template>
 
@@ -15,14 +15,16 @@
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import EnableNotifications from './components/EnableNotifications.vue'
-import ToggleNewsletters from './components/ToggleNewsletters.vue'
+import SalespersonListbox from './components/SalespersonListbox.vue'
+/* import ToggleNewsletters from './components/ToggleNewsletters.vue' */
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
     EnableNotifications,
-    ToggleNewsletters
+    /* ToggleNewsletters */
+    SalespersonListbox
   },
   data() {
     return {
