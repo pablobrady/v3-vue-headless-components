@@ -1,4 +1,4 @@
-# Vue 3 + Typescript + Vite + HeadlessUI
+# Vue 3 + Tailwind v2.2 + HeadlessUI
 
 [SAMPLE SITE](https://clever-euler-8f1f3f.netlify.app/)<br><br>
 
