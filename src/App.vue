@@ -6,9 +6,14 @@
     <EnableNotifications />
   </div>
 
-  <div class="p-5">
+  <div class="mt-5 p-5">
     <SalespersonListbox />
   </div>
+
+  <div class="mt-10 flex justify-center">
+    <MenuDropdown /><MenuDropdown /><MenuDropdown />
+  </div>
+
 </template>
 
 <script lang="ts">
@@ -16,15 +21,15 @@ import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import EnableNotifications from './components/EnableNotifications.vue'
 import SalespersonListbox from './components/SalespersonListbox.vue'
-/* import ToggleNewsletters from './components/ToggleNewsletters.vue' */
+import MenuDropdown from './components/MenuDropdown.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
     EnableNotifications,
-    /* ToggleNewsletters */
-    SalespersonListbox
+    SalespersonListbox,
+    MenuDropdown
   },
   data() {
     return {

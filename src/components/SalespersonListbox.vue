@@ -1,6 +1,6 @@
 <template>
   <div class="top-16 flex justify-between items-center max-w-sm mx-auto">
-    <h2>Salespersons</h2>
+    <h2>Listbox</h2>
     <Listbox v-model="selectedPerson">
       <div class="relative mt-1">
         <ListboxButton
