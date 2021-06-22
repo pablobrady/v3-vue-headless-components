@@ -1,5 +1,9 @@
-# Vue 3 + Typescript + Vite (+ HeadlessUI)
+# Vue 3 + Typescript + Vite + HeadlessUI
 
+[SAMPLE SITE](https://clever-euler-8f1f3f.netlify.app/)<br><br>
+
+
+---
 This template should help get you started developing with Vue 3 and Typescript in Vite.
 
 ## Recommended IDE Setup
